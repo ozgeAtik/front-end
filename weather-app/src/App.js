@@ -2,8 +2,8 @@ import './index.css';
 import React, {useEffect, useState} from 'react'
 import Weather from './Weather';
 
-const REACT_APP_API_URL = 'https://api.openweathermap.org/data/2.5'
-const REACT_APP_API_KEY = 'b7870d47409dc2f05e5b67992134aee2'
+const REACT_APP_API_URL = //api url here
+const REACT_APP_API_KEY = //api key here
 
 function App() {
   const [lat, setLat] = useState([])
