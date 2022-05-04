@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Radio+Canada:wght@300;400;600;700&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Radio Canada', sans-serif;
+}
+
+.App{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.weather-card{
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+  height: 250px;
+  width: 550px;
+  border-radius: 20px;
+  background-color: #EEEEEE;
+  color: #00092C;
+  text-align: center;
+}
+
+.weather-city{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  text-align: left;
+  margin: 0;
+  border-radius: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 24px;
+  font-weight: 700;
+  background-color: #00092C;
+  color: #EEEEEE; 
+}
+
+.weather-city p {
+  margin: 10px;
+  
+}
+
+.weather-date{
+  text-align: left;
+  font-size: 24px;
+  margin: 0;
+  padding: 15px;
+  font-weight: 600;
+}
+
+.temp-humidity{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-size: 20px;
+}
+
+.sunrise-sunset{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-size: 20px;
+}
+
+
+.button {
+  align-items: center;
+  background-color: #EEEEEE; 
+  color: #000;
+  cursor: pointer;
+  margin: 5px;
+  fill: #000; 
+  height: 40px;
+  width: 40px;
+  justify-content: center; 
+  text-align: center;
+  text-decoration: none;
+  transition: all .3s;
+  border-radius: 10px;
+}
+
+.button:focus {
+  color: #171e29;
+}
+
+.button:hover {
+  border-color: #06f;
+  color: #06f;
+  fill: #06f;
+}
+
+.button:active {
+  border-color: #06f;
+  color: #06f;
+  fill: #06f;
+}
