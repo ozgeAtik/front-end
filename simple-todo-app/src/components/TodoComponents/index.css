@@ -1,0 +1,125 @@
+.form-style{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+/*------------ text area style ------------*/
+
+.note-text{
+    resize: none;
+    width: 275px;
+    height: 50px;
+    padding: 12px 20px;
+    margin-left: 15px;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 20px;
+    background-color: #f8f8f8;
+    font-size: 16px;
+    -ms-overflow-style: none;  /* Internet Explorer 10+ */
+    scrollbar-width: none;  /* Firefox */
+}
+
+.note-text::-webkit-scrollbar { 
+    display: none;  /* Safari and Chrome */
+}
+
+.note-text:focus{
+    outline: none !important;
+    border: none;
+}
+ /*----------------------------------------*/
+
+/*------------ Add Button Style ------------*/
+
+.save-button{
+    appearance: none;
+    background-color: #FAFBFC;
+    border: 1px solid rgba(27, 31, 35, 0.15);
+    border-radius: 20px;
+    box-shadow: rgba(27, 31, 35, 0.04) 0 1px 0, rgba(255, 255, 255, 0.25) 0 1px 0 inset;
+    box-sizing: border-box;
+    color: #24292E;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    list-style: none;
+    padding: 6px 16px;
+    position: relative;
+    transition: background-color 0.2s cubic-bezier(0.3, 0, 0.5, 1);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: middle;
+    white-space: nowrap;
+    word-wrap: break-word;
+    right: -15px;
+}
+
+.save-button:hover {
+    background-color: #F3F4F6;
+    text-decoration: none;
+    transition-duration: 0.1s;
+}
+  
+.save-button:disabled {
+    background-color: #FAFBFC;
+    border-color: rgba(27, 31, 35, 0.15);
+    color: #959DA5;
+    cursor: default;
+}
+  
+.save-button:active {
+    background-color: #EDEFF2;
+    box-shadow: rgba(225, 228, 232, 0.2) 0 1px 0 inset;
+    transition: none 0s;
+}
+  
+.save-button:focus {
+    outline: 1px transparent;
+}
+  
+.save-button:before {
+    display: none;
+}
+  
+.save-button:-webkit-details-marker {
+    display: none;
+}
+
+ /*-----------------------------------------*/
+
+.single-notes{
+    text-align: center;
+    margin: 20px;
+}
+
+.s-n{
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: center;
+   margin: 10px;
+   padding: 10px;
+   background: rgba(133, 133, 133, 0.3);
+   border-radius: 20px;
+   color: #f1faee;
+   font-size: 20px;
+}
+
+.s-n span{
+  word-wrap: break-word;
+}
+
+hr{
+    border: 0;
+    height: 1px;
+    background: #333;
+    background-image: linear-gradient(to right, #2b2d42, #2b2d42, #2b2d42);
+    width: 220px;
+ }
