@@ -1,4 +1,4 @@
-projects = [
+const projects = [
   {
     title: "Quizzical",
     image: "./quizzical.png",
