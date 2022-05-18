@@ -70,3 +70,28 @@ main p{
     max-width: 500px;
     margin-top: 1.5rem;
 }
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    width: 95%;
+}
+
+#crypto {
+    font-size: 1.3rem;
+}
+
+#crypto > p {
+    margin: 0.5rem;
+}
+
+#crypto-top {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.8rem;
+}
+
+#crypto-top > span {
+    margin-left: 10px;
+}
